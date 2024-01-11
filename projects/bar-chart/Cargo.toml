@@ -1,5 +1,5 @@
 [package]
-name = "line-chart"
+name = "bar-chart"
 version = "0.0.0"
 authors = ["Aster <192607617@qq.com>"]
 description = "..."
@@ -12,11 +12,7 @@ exclude = ["package.json", "tests/**"]
 
 [dependencies]
 svg = "0.14.0"
-
-[dependencies.serde]
-optional = true
-version = "1.0.195"
-features = ["derive"]
+indexmap = "2.1.0"
 
 [dev-dependencies]
 
